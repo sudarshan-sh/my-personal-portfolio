@@ -1,6 +1,10 @@
 import "./about.css";
 import Award from "../../img/award.png";
-import sudarshanImg from "../../img/sudarshan-img1.jpg"
+import sudarshanImg from "../../img/sudarshan-img1.jpg";
+
+const colorStyle = {
+  color: "darksalmon",
+};
 
 const About = () => {
   return (
@@ -10,29 +14,26 @@ const About = () => {
         <div className="a-card">
           <img
             src={sudarshanImg}
-            alt="myImg"
+            alt=""
             className="a-img"
+            style={{ width: "80%", borderRadius: "30px" }}
           />
         </div>
       </div>
       <div className="a-right">
-        <h2 className="a-title" style={{ margin: "0px 0px 10px 0px" }}>
-          {/* About Me */}
-          Work Experience
-        </h2>
-        {/* <br /> */}
-        <h3 className="a-title">Full Time</h3>
-        <p className="a-sub" style={{ margin: "10px 0px 0px 0px" }}>
-          Flexinovus Solutions Pvt.Ltd.
+        <h1 className="a-title" style={colorStyle}>
+          ABOUT ME
+        </h1>
+        <p className="a-sub">
+          An ardent Frontend/UI Developer domiciled in Jaipur, Rajasthan,
+          India.📍
         </p>
-        <p style={{ fontSize: "smaller" }}>Dec 2022- Present, Delhi</p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          My proficiencies encompass a wide-ranging and comprehensive set of
+          skills in HTML, CSS, JavaScript, React, Redux, Material UI (MUI),
+          Tailwind, MySQL and Java Spring boot.
         </p>
-        <div className="a-award">
+        {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h4 className="a-award-title">International Design Awards 2021</h4>
@@ -41,7 +42,7 @@ const About = () => {
               and fugit.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

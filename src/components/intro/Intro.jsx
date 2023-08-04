@@ -1,5 +1,10 @@
 import "./intro.css";
 // import Me from "../../img/me.png";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 
 const Intro = () => {
   return (
@@ -26,8 +31,32 @@ const Intro = () => {
             forward to work in a collaborative environment and passionate to
             learn new and in-demand skills.
           </p>
+
+          <span className="social-connect">
+            <a
+              href="https://twitter.com/sud2896"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillTwitterCircle></AiFillTwitterCircle>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sudarshan-sharma-36064486/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin></AiFillLinkedin>
+            </a>
+            <a
+              href="https://github.com/sudarshan-sh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub></AiFillGithub>
+            </a>
+          </span>
         </div>
-        <svg
+        {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -82,7 +111,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div>
       <div className="i-right">
         <div className="i-bg"></div>

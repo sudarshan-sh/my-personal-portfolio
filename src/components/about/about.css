@@ -2,19 +2,23 @@
   height: 100vh;
   display: flex;
   align-items: center;
+
+  padding: 0rem 2rem;
 }
 
 .a-left {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   height: 100%;
+  width: 50%;
 }
 
 .a-right {
-  flex: 1;
+  /* flex: 1; */
+  width: 43%;
 }
 
 .a-card.bg {
@@ -45,17 +49,18 @@
 }
 
 .a-title {
-  /* font-weight: 400; */
-  font-weight: 500;
-  color: #59b256;
+  font-weight: 400;
 }
 
 .a-sub {
   margin: 20px 0px;
+  font-weight: 700;
 }
 
 .a-desc{
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: 400;
+    letter-spacing: 0.5px;
 }
 
 .a-award{

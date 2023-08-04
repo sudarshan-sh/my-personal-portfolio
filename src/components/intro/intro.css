@@ -110,3 +110,17 @@
   }
   
 }
+
+.social-connect{
+  display: flex;
+  gap: 10px;
+  padding: 0.5rem 1rem;
+}
+.social-connect a{
+  color: #2d2e32;
+  font-size: 2rem;
+  transition: all 0.23s;
+}
+.social-connect a:hover {
+  color: #147efb;
+}
